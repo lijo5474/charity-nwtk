@@ -1,0 +1,354 @@
+@media screen and (min-width:280px) and (max-width:388px) {
+#header-wrap {width:100% !important; margin: 0px auto !important; float: left !important; }
+#header-top-info ul { display: none !important;}
+#logo-secton .donate-button { display: none; }
+#main-banner .donate-ornge-now { font-size: 13px; padding: 7px 12px; }
+#main-banner .donate-ornge-now:hover { font-size: 13px; padding: 7px 12px; }
+#main-banner h4 { margin-bottom: 13px; font-size: 16px; }
+#main-banner h1 { font-size: 22px; }
+#main-banner .main-banner-txt { bottom: 12px; }
+#history-1 .history-hedding { width: 226px; z-index: -1; height: 656px;} 
+#main-banner .owl-dots { position: absolute; right: -18px; top: 35px; }
+#history-1 .active-year { left: 0; top: -39px; }
+#history-1 .history-para { padding: 0px 15px 15px; }
+#history-1 { padding: 61px 0 51px; }
+#founder-message { padding: 57px 0; }
+#founder-message .founder-text-wrapper h2 { font-size: 2.1rem; }
+#founder-message .founder-text-wrapper p { width: 100%; }
+#founder-message .quot-icon svg { width: 131px; height: 131px; }
+#founder-message .quot-icon { left: -23px; }
+#other-project .hdd-project { font-size: 2.1rem; }
+#other-project .vw-all { float: left; margin: 0px auto; }
+#other-project .grid figure h2 { font-size: 1.1rem; }
+#other-project #owl-demo-2 .item { margin-right: 0px; }
+#other-project .owl-nav, #other-project .owl-dots { display: none; }
+#join-us-section .box-1 { height: auto; margin-bottom: 38px; }
+#testimonials .hdd-project { font-size: 2.1rem; }
+#join-us-section { padding: 50px 0 0; }
+#testimonials #owl-demo-3 .item { margin-right: 0; }
+#testimonials .owl-nav, #testimonials .owl-dots { display: none; }
+#awrd-achivmnts .lefft-hdd h1 { font-size: 2.1rem; }
+.achiv-wrpr { margin: 35px auto 0; }
+#awrd-achivmnts #owl-demo-4 .item { margin-right: 0px; }
+#footerr .footr-list ul { margin: 0px auto 28px; }
+.year-tb { width: 100%; font-size: 22px; font-weight: bold; border: 1px solid #f7eff3; padding: 9px 14px; }
+#page-menu-trigger, #primary-menu-trigger { position: absolute; right: 11px; top: -36px; }
+#logo-secton .header-size-sm { margin-left: 0; }
+.header-row { width: 100% !important; }
+#logo-secton { padding: 7px 0; }
+#main-banner .info-icons-banner ul li:nth-child(1) { border-radius: 0; }
+#main-banner .info-icons-banner ul li:nth-child(2) { border-radius: 0; }
+#main-banner .info-icons-banner ul li:nth-child(3) { border-radius: 0; }
+#main-banner .info-icons-banner { position: fixed; bottom: 152px; z-index: 1; right: 0; z-index: 3; }
+section {overflow: hidden; }
+.top-hegt-space { margin-top: 81px; }
+#save-countlessliv .lft-texts { padding: 0; }
+#save-countlessliv .save-countlessliv-box { padding: 25px; }
+#save-countlessliv .cuntr-ststcs { padding: 35px 9px 0; height: 167px; margin: 5px; }
+#crowdfunding-categories h1 { font-size: 2.6rem; }
+#crowdfunding-categories h6 { width: 100%; }
+#crowdfunding-categories .crowdfnd-wdh ul li { width: 43%; padding: 28px 6px; height: 157px; float: left;}
+#crowdfunding-categories .crowdfnd-wdh ul li:hover { width: 43%; padding: 28px 6px; height: 157px; float: left;}
+.owl-nav { display: none; }
+#founder-message .fundr-wdtyh { width: 100%; }
+#our-top-fundraisers h1 { font-size: 2.4rem; }
+#our-top-fundraisers h6 { width: 100%; }
+#main-banner .main-banner-txt { position: static; background: #0061ac; padding: 16px; text-align: center; width: 100%; }
+#main-banner .donted-price-box { position: static; width: 100%; padding: 30px; }
+#main-banner h2 { font-size: 18px; }
+.man-hder { position: static; }
+#header-top-info { padding: 1px 0; }
+}
+@media screen and (min-width:389px) and (max-width:476px) {
+#header-wrap {width:100% !important; margin: 0px auto !important; float: left !important; }    
+#header-top-info ul { display: none !important;}
+#logo-secton .donate-button { display: none; }
+#main-banner .donate-ornge-now { font-size: 13px; padding: 7px 12px; }
+#main-banner .donate-ornge-now:hover { font-size: 13px; padding: 7px 12px; }
+#main-banner h4 { margin-bottom: 13px; font-size: 16px; }
+#main-banner h1 { font-size: 22px; }
+#main-banner .main-banner-txt { bottom: 12px; }
+#history-1 .history-hedding { width: 226px; z-index: -1; height: 656px;} 
+#main-banner .owl-dots { position: absolute; right: -18px; top: 35px; }
+#history-1 .active-year { left: 0; top: -39px; }
+#history-1 .history-para { padding: 0px 15px 15px; }
+#history-1 { padding: 61px 0 51px; }
+#founder-message { padding: 57px 0; }
+#founder-message .founder-text-wrapper h2 { font-size: 2.1rem; }
+#founder-message .founder-text-wrapper p { width: 100%; }
+#founder-message .quot-icon svg { width: 131px; height: 131px; }
+#founder-message .quot-icon { left: -23px; }
+.navajeevnma-para { padding: 16px 0 0; }
+#other-project .hdd-project { font-size: 2.1rem; }
+#other-project .vw-all { float: left; margin: 0px auto; }
+#other-project .grid figure h2 { font-size: 1.1rem; }
+#other-project #owl-demo-2 .item { margin-right: 0px; }
+#other-project .owl-nav, #other-project .owl-dots { display: none; }
+#join-us-section .box-1 { height: auto; margin-bottom: 38px; }
+#testimonials .hdd-project { font-size: 2.1rem; }
+#join-us-section { padding: 50px 0 0; }
+#testimonials #owl-demo-3 .item { margin-right: 0; }
+#testimonials .owl-nav, #testimonials .owl-dots { display: none; }
+#awrd-achivmnts .lefft-hdd h1 { font-size: 2.1rem; }
+.achiv-wrpr { margin: 35px auto 0; }
+#awrd-achivmnts #owl-demo-4 .item { margin-right: 0px; }
+#footerr .footr-list ul { margin: 0px auto 28px; }
+.year-tb { width: 100%; font-size: 22px; font-weight: bold; border: 1px solid #f7eff3; padding: 9px 14px; }
+#page-menu-trigger, #primary-menu-trigger { position: absolute; right: 11px; top: -45px; }
+#logo-secton .header-size-sm { margin-left: 0; }
+.header-row { width: 100% !important; }
+#logo-secton { padding: 7px 0; }
+#main-banner .info-icons-banner ul li:nth-child(1) { border-radius: 0; }
+#main-banner .info-icons-banner ul li:nth-child(2) { border-radius: 0; }
+#main-banner .info-icons-banner ul li:nth-child(3) { border-radius: 0; }
+#main-banner .info-icons-banner { position: fixed; bottom: 152px; z-index: 1; right: 0; z-index: 3; }
+section {overflow: hidden; }
+.top-hegt-space { margin-top: 81px; }
+#save-countlessliv .lft-texts { padding: 0; }
+#save-countlessliv .save-countlessliv-box { padding: 25px; }
+#save-countlessliv .cuntr-ststcs { padding: 35px 9px 0; height: 167px; margin: 5px; }
+#crowdfunding-categories h1 { font-size: 2.6rem; }
+#crowdfunding-categories h6 { width: 100%; }
+#crowdfunding-categories .crowdfnd-wdh ul li { width: 43%; padding: 28px 6px; height: 157px;}
+#crowdfunding-categories .crowdfnd-wdh ul li:hover { width: 43%; padding: 28px 6px; height: 157px;}
+.owl-nav { display: none; }
+#founder-message .fundr-wdtyh { width: 100%; }
+#our-top-fundraisers h1 { font-size: 2.4rem; }
+#our-top-fundraisers h6 { width: 100%; }
+#main-banner .main-banner-txt { position: static; background: #0061ac; padding: 16px; text-align: center; width: 100%; }
+#main-banner .donted-price-box { position: static; width: 100%; padding: 30px; }
+#main-banner h2 { font-size: 18px; }
+.man-hder { position: static; }
+#header-top-info { padding: 1px 0; }
+}
+@media screen and (min-width:477px) and (max-width:575px) {
+#header-wrap {width:100% !important; margin: 0px auto !important; float: left !important; }    
+#header-top-info ul { display: none !important;}
+#logo-secton .donate-button { display: none; }
+#main-banner .donate-ornge-now { font-size: 13px; padding: 7px 12px; }
+#main-banner .donate-ornge-now:hover { font-size: 13px; padding: 7px 12px; }
+#main-banner h4 { margin-bottom: 13px; font-size: 16px; }
+#main-banner h1 { font-size: 22px; }
+#main-banner .main-banner-txt { bottom: 12px; }
+#history-1 .history-hedding { width: 226px; z-index: -1; height: 656px;} 
+#main-banner .owl-dots { position: absolute; right: -18px; top: 35px; }
+#history-1 .active-year { left: 0; top: -39px; }
+#history-1 .history-para { padding: 0px 15px 15px; }
+#history-1 { padding: 61px 0 51px; }
+#founder-message { padding: 57px 0; }
+#founder-message .founder-text-wrapper h2 { font-size: 2.1rem; }
+#founder-message .founder-text-wrapper p { width: 100%; }
+#founder-message .quot-icon svg { width: 131px; height: 131px; }
+#founder-message .quot-icon { left: -23px; }
+#other-project .hdd-project { font-size: 2.1rem; }
+#other-project .vw-all { float: left; margin: 0px auto; }
+#other-project .grid figure h2 { font-size: 1.1rem; }
+#other-project #owl-demo-2 .item { margin-right: 0px; }
+#other-project .owl-nav, #other-project .owl-dots { display: none; }
+#join-us-section .box-1 { height: auto; margin-bottom: 38px; }
+#testimonials .hdd-project { font-size: 2.1rem; }
+#join-us-section { padding: 50px 0 0; }
+#testimonials #owl-demo-3 .item { margin-right: 0; }
+#testimonials .owl-nav, #testimonials .owl-dots { display: none; }
+#awrd-achivmnts .lefft-hdd h1 { font-size: 2.1rem; }
+.achiv-wrpr { margin: 35px auto 0; }
+#awrd-achivmnts #owl-demo-4 .item { margin-right: 0px; }
+#footerr .footr-list ul { margin: 0px auto 28px; }
+.year-tb { width: 100%; font-size: 22px; font-weight: bold; border: 1px solid #f7eff3; padding: 9px 14px; }
+#page-menu-trigger, #primary-menu-trigger { position: absolute; right: 11px; top: -45px; }
+#logo-secton .header-size-sm { margin-left: 0; }
+.header-row { width: 100% !important; }
+#logo-secton { padding: 7px 0; }
+#other-project .location-item { font-size: 16px; }
+#main-banner .info-icons-banner ul li:nth-child(1) { border-radius: 0; }
+#main-banner .info-icons-banner ul li:nth-child(2) { border-radius: 0; }
+#main-banner .info-icons-banner ul li:nth-child(3) { border-radius: 0; }
+#main-banner .info-icons-banner { position: fixed; bottom: 152px; z-index: 1; right: 0; z-index: 3; }
+section {overflow: hidden; }
+.top-hegt-space { margin-top: 94px; }
+#save-countlessliv .lft-texts { padding: 0; }
+#save-countlessliv .save-countlessliv-box { padding: 25px; }
+#save-countlessliv .cuntr-ststcs { padding: 35px 9px 0; height: 167px; margin: 5px; }
+#crowdfunding-categories h1 { font-size: 2.6rem; }
+#crowdfunding-categories h6 { width: 100%; }
+#crowdfunding-categories .crowdfnd-wdh ul li { width: 43%; padding: 28px 6px; height: 157px;}
+#crowdfunding-categories .crowdfnd-wdh ul li:hover { width: 43%; padding: 28px 6px; height: 157px;}
+.owl-nav { display: none; }
+#founder-message .fundr-wdtyh { width: 100%; }
+#our-top-fundraisers h1 { font-size: 2.4rem; }
+#our-top-fundraisers h6 { width: 100%; }
+#main-banner .main-banner-txt { position: static; background: #0061ac; padding: 16px; text-align: center; width: 100%; }
+#main-banner .donted-price-box { position: static; width: 100%; padding: 30px; }
+#main-banner h2 { font-size: 18px; }
+.man-hder { position: static; }
+#header-top-info { padding: 1px 0; }
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+#header-wrap {width:100% !important; margin: 0px auto !important; float: left !important; }   
+#header-top-info ul { display: none !important;}
+#logo-secton .donate-button { display: none; }
+#main-banner .donate-ornge-now { font-size: 13px; padding: 10px 19px; }
+#main-banner .donate-ornge-now:hover { font-size: 13px; padding: 10px 19px; }
+#main-banner h4 { margin-bottom: 13px; font-size: 20px; }
+#main-banner h1 { font-size: 27px; }
+#main-banner .main-banner-txt { bottom: 34px; }
+#history-1 .history-hedding { width: 226px; z-index: -1; height: 656px;} 
+#main-banner .owl-dots { position: absolute; right: -18px; top: 35px; }
+#history-1 .active-year { left: 0; top: -39px; }
+#history-1 .history-para { padding: 0px 15px 15px; }
+#history-1 { padding: 61px 0 51px; }
+#founder-message { padding: 57px 0; }
+#founder-message .founder-text-wrapper h2 { font-size: 2.1rem; }
+#founder-message .founder-text-wrapper p { width: 100%; }
+#founder-message .quot-icon svg { width: 69px; height: 69px; }
+#founder-message .quot-icon { left: -23px; top: -11px; }
+#other-project .hdd-project { font-size: 2.1rem; }
+#other-project .vw-all { float: right; margin: 10px auto; }
+#other-project .grid figure h2 { font-size: 1.1rem; }
+#other-project #owl-demo-2 .item { margin-right: 0px; }
+#other-project .owl-nav, #other-project .owl-dots { display: none; }
+#join-us-section .box-1 { height: auto; margin-bottom: 38px; }
+#testimonials .hdd-project { font-size: 2.1rem; }
+#join-us-section { padding: 50px 0 0; }
+
+#awrd-achivmnts .lefft-hdd h1 { font-size: 2.1rem; }
+.achiv-wrpr { margin: 35px auto 0; }
+#awrd-achivmnts #owl-demo-4 .item { margin-right: 0px; }
+#footerr .footr-list ul { margin: 0px auto 28px; }
+.year-tb { width: 100%; font-size: 22px; font-weight: bold; border: 1px solid #f7eff3; padding: 9px 14px; }
+#page-menu-trigger, #primary-menu-trigger { position: absolute; right: 11px; top: -45px; }
+#logo-secton .header-size-sm { margin-left: 0; }
+.header-row { width: 100% !important; }
+#logo-secton { padding: 11px 0 0; }
+#other-project .location-item { font-size: 16px; }
+#footerr .footr-list ul li { padding-right: 21px; } 
+section {overflow: hidden; }
+.top-hegt-space { margin-top: 75px; }
+#main-banner .main-banner-txt { left: 54px; top: 144px; width: 57%; }
+#main-banner .donted-price-box { position: static; width: 100%; padding: 46px; }
+#save-countlessliv .cuntr-ststcs { height: 154px; }
+#crowdfunding-categories .crowdfnd-wdh ul li { width: 29%; float: left; height: 169px; }
+#founder-message .box-7d { position: static; }
+.man-hder { position: static; }
+#header-top-info { padding: 1px 0; }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+#header-wrap {width:100% !important; margin: 0px auto !important; float: left !important; }
+#header-top-info ul { display: none !important;}
+#logo-secton .donate-button { display: none; }
+#main-banner .donate-ornge-now { font-size: 16px; padding: 11px 18px; }
+#main-banner .donate-ornge-now:hover { font-size: 16px; padding: 11px 18px; }
+#main-banner h4 { margin-bottom: 13px; font-size: 22px; }
+#main-banner h1 { font-size: 42px; }
+#main-banner .main-banner-txt { bottom: 51px; left: 41px;}
+#history-1 .history-hedding { width: 226px; z-index: -1; height: 798px;} 
+#main-banner .owl-dots { position: absolute; right: -3px; top: 182px; }
+#history-1 .active-year { left: -46px; top: -10px; font-size: 4rem; }
+#history-1 .history-para h4 { font-size: 1.1rem; }
+#history-1 .history-para { padding: 0px 0px 0px; }
+#history-1 { padding: 61px 0 51px; }
+#founder-message { padding: 57px 0; }
+#founder-message .founder-text-wrapper h2 { font-size: 2.1rem; }
+#founder-message .founder-text-wrapper p { width: 100%; }
+#founder-message .quot-icon svg { width: 108px; height: 108px; }
+#founder-message .quot-icon { left: -23px; }
+#other-project .hdd-project { font-size: 2.1rem; }
+#other-project .vw-all { float: right; margin: 10px auto; }
+#other-project .grid figure h2 { font-size: 1.3rem; }
+#other-project #owl-demo-2 .item { margin-right: 0px; }
+#other-project .owl-nav, #other-project .owl-dots { display: none; }
+#join-us-section .box-1 { height: auto; margin-bottom: 38px; }
+#testimonials .hdd-project { font-size: 2.1rem; }
+#join-us-section { padding: 50px 0 0; }
+#testimonials .owl-nav, #testimonials .owl-dots { display: none; }
+#awrd-achivmnts .lefft-hdd h1 { font-size: 2.1rem; }
+.achiv-wrpr { margin: 0px auto 0; }
+#awrd-achivmnts #owl-demo-4 .item { margin-right: 0px; }
+#footerr .footr-list ul { margin: 0px auto 28px; }
+.year-tb { width: 100%; font-size: 22px; font-weight: bold; border: 1px solid #f7eff3; padding: 9px 14px; }
+#page-menu-trigger, #primary-menu-trigger { position: absolute; right: 11px; top: -45px; }
+#logo-secton .header-size-sm { margin-left: 0; }
+.header-row { width: 100% !important; }
+#logo-secton { padding: 7px 0; }
+section {overflow: hidden; }
+.top-hegt-space { margin-top: 94px; }
+#main-banner .donted-price-box { top: 120px; right: 80px; width: 40%; padding: 29px; }
+#main-banner h2 { font-size: 18px; }
+#main-banner .main-banner-txt { top: 55px; }
+#save-countlessliv .cuntr-ststcs { padding: 22px 11px 0; }
+#crowdfunding-categories .crowdfnd-wdh ul li { width: 22%; float: left; height: 172px; }
+#founder-message .box-7d { padding: 17px; font-size: 16px; }
+}
+@media screen and (min-width:992px) and (max-width:1150px) {
+#header-wrap {width:100% !important; margin: 0px auto !important; float: left !important; }
+#other-project .grid figure h2 { font-size: 1.4rem; } 
+#join-us-section .box-1 { height: 535px; }
+#awrd-achivmnts .lefft-hdd h1 { font-size: 2.7rem; }
+#history-1 .tab-line { width: 17px; }
+#history-1 #tab-button .is-active a .tab-line { width: 26px; }
+#logo-secton .header-size-sm { margin-left: 0; } 
+.menu-link { padding: 11px 7px !important; }
+.menu-container .sub-menu::before { bottom: 24px !important; top: 20px !important; right: -4px !important; }
+#header-wrap { position: relative; width: fit-content; margin: 0px auto; float: left; }
+#logo-secton .donate-button { top: 20px; }
+#history-1 .history-para { padding: 1px 12px 1px 18px; }
+#logo-secton .donate-button { right: 101px; }
+section {overflow: hidden; }
+.top-hegt-space { margin-top: 117px; }
+#main-banner .main-banner-txt { left: 54px; top: 93px; width: 45%; }
+#main-banner h2 { font-size: 24px; }
+#main-banner .donted-price-box { top: 162px; right: 86px; width: 37%; }
+#save-countlessliv .cuntr-ststcs { height: 159px; }
+}
+@media screen and (min-width:1150px) and (max-width:1240px) {
+#logo-secton .donate-button { top: 20px; right: 8px; }
+#logo-secton .donate-button a { padding: 10px 13px; }
+#history-1 .history-para { padding: 1px 12px 1px 18px; }
+#other-project .grid figure h2 { font-size: 1.3rem; }
+#join-us-section .box-1 { height: 537px; }
+section {overflow: hidden; }
+#main-banner .donted-price-box { top: 168px; }
+#main-banner h2 { font-size: 23px; }
+}
+@media screen and (min-width:1241px) and (max-width:1340px) {
+#logo-secton .donate-button { right: 70px; }
+#join-us-section { padding: 71px 0 50px; }
+#main-banner h2 { font-size: 25px; }
+}
+@media screen and (min-width:1341px) and (max-width:1399px) {
+
+}
+@media screen and (min-width:1400px) and (max-width:1499px) {
+
+}
+@media screen and (min-width:1500px) and (max-width:1699px) {
+#main-banner .donted-price-box { top: 204px; right: 124px; width: 26%; }
+}
+@media screen and (min-width:1700px) and (max-width:1849px) {
+#logo-secton .header-size-sm { margin-left: 0; float: right; margin-right: 74px; }
+#main-banner h1 { font-size: 5.2rem; }
+#main-banner h4 { font-size: 2.3rem; }
+#main-banner .main-banner-txt { bottom: 67px; }
+#main-banner .donate-ornge-now { font-size: 16px; padding: 14px 29px; }
+#main-banner .donate-ornge-now:hover { font-size: 16px; padding: 14px 29px; }
+#history-1 .history-hedding { width: 452px; }
+#history-1 .history-hedding img { top: 107px; left: 189px; }
+#founder-message .founder-text-wrapper p { width: 70%; }
+#join-us-section .box-1 { height: 430px; }
+#main-banner .donted-price-box { top: 219px; right: 124px; width: 26%;}
+}
+@media screen and (min-width:1850px) and (max-width:2199px) {
+#logo-secton .header-size-sm { margin-left: 0; margin-right: 113px; float: right; }
+#logo-secton .donate-button { right: 255px; }
+#main-banner h1 { font-size: 5.2rem; }
+#main-banner h4 { font-size: 2.3rem; }
+#main-banner .main-banner-txt { bottom: 67px; }
+#main-banner .donate-ornge-now { font-size: 16px; padding: 14px 29px; }
+#main-banner .donate-ornge-now:hover { font-size: 16px; padding: 14px 29px; }
+#history-1 .history-hedding { width: 452px; }
+#history-1 .history-hedding img { top: 107px; left: 242px; }
+#founder-message .founder-text-wrapper p { width: 70%; }
+#join-us-section .box-1 { height: 430px; }
+#main-banner h2 { font-size: 34px; }
+#main-banner .donted-price-box { top: 266px; right: 124px; width: 26%; }
+}

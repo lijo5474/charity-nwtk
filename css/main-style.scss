@@ -1,0 +1,271 @@
+@font-face { font-family: 'Montserrat'; src: url('../fonts/Montserrat-Bold.woff2') format('woff2'), url('../fonts/Montserrat-Bold.woff') format('woff'); font-weight: bold; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Montserrat'; src: url('../fonts/Montserrat-Light.woff2') format('woff2'), url('../fonts/Montserrat-Light.woff') format('woff'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Montserrat'; src: url('../fonts/Montserrat-Medium.woff2') format('woff2'), url('../fonts/Montserrat-Medium.woff') format('woff'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Montserrat'; src: url('../fonts/Montserrat-Regular.woff2') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Montserrat'; src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'), url('../fonts/Montserrat-SemiBold.woff') format('woff'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Montserrat'; src: url('../fonts/Montserrat-Thin.woff2') format('woff2'), url('../fonts/Montserrat-Thin.woff') format('woff'); font-weight: 100; font-style: normal; font-display: swap; }
+
+a { text-decoration:none; color:inherit; }
+a:hover { text-decoration:none; color:inherit; }
+.no-pad { padding:0; }
+
+$font-familyy: 'Montserrat';
+$fonts-size: 14px;
+$theme-color: #0061AC;
+$button-color: #020202;
+
+/* scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); -webkit-border-radius: 10px; border-radius: 10px; }
+::-webkit-scrollbar-thumb { -webkit-border-radius: 10px; border-radius: 10px; background: #fff3f3da; -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); }
+::-webkit-scrollbar-thumb:window-inactive { background: #fff3f3da; }
+/* scrollbar */
+.zoom:hover { transform: scale(1.2); }
+.zoom { padding: 0; transition: transform .6s; margin: 0 auto; }
+/*Header sticky*/
+#header_container{transition:top .3s;position:fixed;top:0;left:0;right:0;z-index:999; }
+#header_container.hide-nav{top:-200px; }
+.top-hegt-space{margin-top: 32px; }
+.man-hder { position: absolute; top: 0; left: 0; right: 0; z-index: 3; }
+/*Header sticky*/
+
+/*HEADER*/
+#header-top-info {
+    background-color: $theme-color;
+    padding: 4px 0;
+    ul { margin: 0px; padding: 0; text-align: right; }
+    ul li { list-style: none; display: inline-block; color: #fff; padding-right: 19px;}
+    svg { background: #fff; color: $theme-color; width: 24px; height: 24px; padding: 5px; border-radius: 50%;}
+}
+#logo-secton {
+    padding: 15px 0; position: relative;box-shadow: -3px 2px 5px 0px #00000012;  
+    .header-size-sm {    margin-left: 84px; }
+    .donate-button { position: absolute; right: 122px; top: 20px; }
+    .donate-button a { transition: all .4s ease; background: $button-color; border: 1px solid $button-color; color: #000; text-transform: uppercase; font-size: 14px; font-weight: 600; border-radius: 0; padding: 10px 21px; }
+    .donate-button a:hover { transition: all .4s ease; background: #81c434; border: 1px solid $button-color; color: #000; text-transform: uppercase; font-size: 14px; font-weight: 600; border-radius: 0; padding: 10px 21px; }
+    .donate-button a:hover { transition: all .4s ease; background: #6dac26; border: 1px solid #6dac26; color: #000; text-transform: uppercase; font-size: 14px; font-weight: 600; border-radius: 0; padding: 10px 21px; }
+} 
+/*HEADER*/
+/*BANNER*/
+#main-banner {
+    position: relative;
+    h1 { font-weight: bold; color: #fff; text-shadow: 2px 2px 3px #0000006e; font-size: 3.2rem; }
+    h4 { color: #fff; font-weight: normal; margin-bottom: 19px; }
+    .main-banner-txt { position: absolute; left: 114px; text-align: left; z-index: 1; top: 158px; width: 40%; }
+    .donate-ornge-now { background-color: $theme-color; border: 1px solid $theme-color; color: #fff; text-transform: uppercase; font-size: 14px; letter-spacing: 1px; border-radius: 0; padding: 11px 25px; transition: all .4s ease;}
+    .donate-ornge-now:hover { background-color: #e05425; border: 1px solid #e05425; color: #fff; text-transform: uppercase; font-size: 14px; letter-spacing: 3px; border-radius: 0; padding: 11px 25px; transition: all .4s ease; }
+    .owl-dots { position: absolute; right: 8px; top: 189px; rotate: 90deg; }
+    .owl-theme .owl-dots .owl-dot span { background: #ffffff; }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: $theme-color !important; }
+    .donted-price-box { border-radius: 16px; text-align: center; background: #fff; position: absolute; top: 104px; top: 160px; right: 124px; z-index: 1; width: 29%; padding: 46px; }
+    .pree-icn { position: relative; top: -1px; }
+    .add-to-cart { background: $theme-color; border: 1px solid $theme-color; width: 100%; border-radius: 0; margin: 10px auto 0;  text-transform: uppercase; letter-spacing: 1px; }
+    .input-text { text-align: center; width: 100%; border: 1px solid #ccc; padding: 9px 15px; }
+    h2 { font-weight: bold;text-transform: uppercase; letter-spacing: 1px; color: $theme-color; font-size: 28px;}
+    /*social media icons on banner*/
+    .info-icons-banner { position: absolute; bottom: 20px; z-index: 1; right: 14px; }
+    .info-icons-banner ul { margin: 0px auto; padding: 0px; }
+    .info-icons-banner ul li { list-style: none; }
+    .info-icons-banner ul li:nth-child(1) { background: #BA7C9E; margin-bottom: 9px; color: #fff; width: 35px; height: 35px; padding: 3px 9px 6px; border-radius: 50%; }
+    .info-icons-banner ul li:nth-child(2) { background: #EA6E52; margin-bottom: 9px; color: #fff; width: 35px; height: 35px; padding: 3px 9px 6px; border-radius: 50%; }
+    .info-icons-banner ul li:nth-child(3) { background: #2AA81A; margin-bottom: 9px; color: #fff; width: 35px; height: 35px; padding: 3px 10px 6px; border-radius: 50%; }
+    
+/* Wobble Skew */
+@-webkit-keyframes hvr-wobble-skew {
+  16.65%{-webkit-transform:skew(-12deg);transform:skew(-12deg)}
+  33.3%{-webkit-transform:skew(10deg);transform:skew(10deg)}
+  49.95%{-webkit-transform:skew(-6deg);transform:skew(-6deg)}
+  66.6%{-webkit-transform:skew(4deg);transform:skew(4deg)}
+  83.25%{-webkit-transform:skew(-2deg);transform:skew(-2deg)}
+  100%{-webkit-transform:skew(0);transform:skew(0)}
+  }
+  @keyframes hvr-wobble-skew {
+  16.65%{-webkit-transform:skew(-12deg);transform:skew(-12deg)}
+  33.3%{-webkit-transform:skew(10deg);transform:skew(10deg)}
+  49.95%{-webkit-transform:skew(-6deg);transform:skew(-6deg)}
+  66.6%{-webkit-transform:skew(4deg);transform:skew(4deg)}
+  83.25%{-webkit-transform:skew(-2deg);transform:skew(-2deg)}
+  100%{-webkit-transform:skew(0);transform:skew(0)}
+  }
+  .hvr-wobble-skew{vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0)}
+  .hvr-wobble-skew:hover,.hvr-wobble-skew:focus,.hvr-wobble-skew:active{-webkit-animation-name:hvr-wobble-skew;animation-name:hvr-wobble-skew;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-iteration-count:1;animation-iteration-count:1}
+  /*social media icons on banner*/
+}
+/*BANNER*/
+/*OUR HISTORY */
+#history-1 {  
+    padding: 61px 0 110px; position: relative;
+    .hdd-txt-cnt { text-align: center;     margin-bottom: 63px;}
+    .hdd-txt-cnt h1 { font-weight: bold; margin: 0px auto; font-size: 3.0rem; color: $theme-color; }
+    .hdd-txt-cnt p {  }
+    .histryy-wrpr {  }
+    #tab-button { display: table; table-layout: fixed; width: 100%; margin: 0; padding: 0; list-style: none; }
+    #tab-button li { display: block; position: relative; }
+    #tab-button li a { display: block; padding: .5em; background:  none; border: none; text-align: center; color: #000;
+    text-decoration: none; }
+    #tab-button li:not(:first-child) a { border-left: none; }
+    #tab-button li a:hover, #tab-button .is-active a { border-bottom-color: transparent; background: none; color: $theme-color; }
+    .tab-contents { padding: 0; }
+    .tab-button-outer { display: none; }
+    .tab-contents { margin-top: 20px; }
+    @media screen and (min-width: 768px) {
+    .tab-button-outer { position: relative; z-index: 2; display: block; top: 130px; }
+    .tab-select-outer { display: none; }
+    .tab-contents { position: relative; top: -1px; margin-top: 0; }
+    }
+    .tab-line { width: 30px; height: 1px; background: #000; position: absolute; right: 17px; top: 21px; }
+    #tab-button .is-active a .tab-line { width: 40px; height: 1px; background: #000; position: absolute; right: 17px; top: 21px; }
+    .history-content {  }
+    .active-year { color: $theme-color; font-weight: bold; font-size: 5rem; position: relative; left: -51px; }
+    .history-para h4 { font-size: 1.6rem; font-weight: 700; }
+    .history-para p { font-size: 1rem; margin: 0px auto; line-height: 25px; }
+    .history-para { padding: 1px 162px 1px 36px }
+    .history-hedding { background: #f7eff3; width: 226px; position: absolute; top: 0; bottom: 0; }
+    .history-hedding img { position: absolute; top: 64px; left: 55px; }
+    .vert-line_1 { background: #efefef; z-index: -1; height: 100%; width: 1px; position: absolute; left: 57%; top: 0; }
+    .vert-line_2 { background: #efefef; z-index: -1; height: 100%; width: 1px; position: absolute; right: 20%; top: 0; }
+    #history-1 #tab-select { width: 100%; padding: 9px 11px; border: 1px solid #f8eff4; font-size: 22px; font-weight: bold; }
+}
+/*OUR HISTORY */
+
+/*FOUNDER MESSAGE */
+#founder-message { background: #fff; padding: 80px 0;
+    .founder-text-wrapper {  }
+    .founder-text-wrapper h2 { color: $theme-color; font-size: 3.1rem; font-weight: 700; margin: 0px auto 14px; }
+    .founder-text-wrapper p { font-size: 1rem; margin: 0px auto 15px; line-height: 30px; width: 82%; float: left; }
+    .foundrer-image { position: relative; }
+    .foundrer-image img { border: 10px solid #fff; }
+    .quot-icon svg { color: $theme-color; width: 192px; height: 192px; }
+    .quot-icon { position: absolute; left: -90px; top: -30px; }
+    .box-7d { background: $theme-color; color: #fff;padding: 20px; font-size: 21px; position: absolute; bottom: 0; }
+    .fundr-wdtyh { width: 75%; margin: 0px auto; }
+}
+/*FOUNDER MESSAGE */
+
+/* Give Every Month */
+#save-countlessliv { position: relative; padding: 75px 0;
+    .save-countlessliv-box { background: url(../images/subscription-bg.webp) center fixed; background-size:cover; padding: 38px; }
+    .save-countlessliv-para h1 { font-size: 3.1rem; font-weight: 700;}
+    .save-countlessliv-para p { font-size: 1rem; }
+    .rred-more { font-size: 1rem; font-weight: bold; padding-top: 15px; }
+    .statics-wrapper {  }
+    h1 {font-size: 45px; color: #fff; font-weight: bold; }
+    h4 { color: #fff; }
+    p { color: #fff; }
+    .lft-texts { padding: 31px 27px; }
+    .counter span { font-weight: bold; }
+    .subscription-gff { width: 29px; }
+    .no-pad_01 { padding: 0; }
+    .subscription-buttn { background-color: #fff; text-transform: uppercase; font-weight: bold; font-size: 17px; letter-spacing: 1px; padding: 10px 17px 10px 10px; }
+    .cuntr-ststcs { padding: 35px 17px 0; height: 140px; margin: 5px; color: #fff; border: 1px solid #fff;}
+    .counter { font-size: 3.0rem; }
+    .cuntr-ststcs h3 { color: #fff; font-size: 14px; font-weight: normal; text-transform: uppercase; letter-spacing: 3px; }
+    .statics-wrapper { margin-top: 10px; width: 94%; }
+    .save-countlessliv-headding { font-size: 10rem; text-transform: uppercase; font-weight: bold; color: #fff; text-shadow: 0px 0px 1px #0000007d; position: absolute; bottom: -38px; left: 0; right: 0; text-align: center; z-index: -1; }
+}
+/* Give Every Month */
+
+/* Crowdfunding Categories */
+#crowdfunding-categories { padding: 0 0 60px; 
+  h1 { font-weight: bold; margin: 0px auto; font-size: 3rem; color: $theme-color; text-align: center; }
+  h6 { font-size: 16px; font-weight: normal; line-height: 28px; margin: 9px auto 0; width: 69%; text-align: center; }
+  .crowdfnd-wdh { margin-top: 36px; }
+  .crowdfnd-wdh ul { margin: 0px auto; padding: 0; }
+  .crowdfnd-wdh ul li { list-style: none; display: inline-block; background: #f0f0f0; border-radius: 22px; padding: 28px 27px; width: 22%; margin: 9px; /*box-shadow: 0px 0px 6px 2px #00000012;*/ transition: all 0.4s ease;}
+  .crowdfnd-wdh ul li:hover { list-style: none; display: inline-block; background: #fff; border-radius: 22px; padding: 28px 27px; width: 22%; margin: 9px; box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.0705882353); transition: all 0.4s ease;}
+  .crdfunding-items { text-align: center; }
+  .icon-crd-fun1 { height: 61px; width: 61px; margin: auto;}
+
+  .icon-crd-txts {  }
+  .icon-crd-txts h4 { margin: 6px auto 0; font-size: 18px; font-weight: normal; }
+}
+/* Crowdfunding Categories */
+
+/* Our Top Fundraisers */
+#our-top-fundraisers { padding: 71px 0; background: url(../images/subscription-bg.webp) center fixed; background-size: cover;
+  h1 { font-weight: bold; margin: 0px auto; font-size: 3rem; color: $theme-color; text-align: center; color: #fff; }
+  h6 { font-size: 16px; font-weight: normal; line-height: 28px; margin: 9px auto 0; width: 69%; text-align: center; color: #fff; }
+  .top-franchis { background: #fff; }
+  h4 { font-size: 21px; font-weight: bold; line-height: 28px; }
+  .top-franchis-mmg { position: relative; overflow: hidden; }
+  .top-franchis-txts { padding: 15px 26px 24px; }
+  .per-b { float: right !important; }
+  .donte-bttn { transition: all 0.4s ease; width: 100%; text-transform: uppercase; font-size: 18px; letter-spacing: 2px; border-radius: 0; padding: 8px; margin-top: 22px; }
+  .donte-bttn:hover { transition: all 0.4s ease; width: 100%; text-transform: uppercase; font-size: 18px; letter-spacing: 3px; border-radius: 0; padding: 8px; margin-top: 22px; }
+  .top-fund { margin-top: 30px; }
+  #owl-demo-5 .item { margin: 10px 15px; }
+  .icon-med { background: #fff;  padding: 4px 10px 4px;position: absolute; bottom: -18px; left: 0; right: 0; width: 35px; height: 35px; border-radius: 50%; margin: 0px auto; color: $theme-color; }
+}
+/* Our Top Fundraisers */
+
+/*OTHER PROJECTS*/
+#other-project { padding: 51px 0 63px; background: #f4f4f4;
+    .hdd-project { font-size: 3.1rem; font-weight: 700; color: $theme-color; }
+    .vw-all { font-weight: 700; text-align: right; float: right; margin: 20px auto; }
+    .project-slidr { margin-top: 20px; }
+    .grid figure { border-radius: 24px; position: relative; float: left; overflow: hidden; width: 100%; text-align: center; cursor: pointer; }
+    .grid figure img { position: relative; display: block; min-height: 100%; max-width: 100%; opacity: 0.8; }
+    .grid figure figcaption { padding: 2em; color: #fff; font-size: 1.25em; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+    .grid figure figcaption::before,.grid figure figcaption::after { pointer-events: none; }
+    .grid figure figcaption, .grid figure figcaption > a { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .grid figure figcaption > a { z-index: 1000; text-indent: 200%; white-space: nowrap; font-size: 0; opacity: 0; }
+    .grid figure h2{word-spacing:-.15em;font-weight:700;font-size:28px;text-decoration:underline 1px}
+#other-project .grid figure h2 span{font-weight:600;font-size:30px}
+.grid figure h2,.grid figure p{margin:0}
+.grid figure p{letter-spacing:1px;font-size:68.5%}
+figure.effect-lily img{max-width:none;width:-webkit-calc(100% + 50px);width:calc(100% + 50px);opacity:9;-webkit-transition:opacity 0.35s,-webkit-transform .35s;transition:opacity 0.35s,transform .35s;-webkit-transform:translate3d(-40px,0,0);transform:translate3d(-40px,0,0)}
+figure.effect-lily figcaption{text-align:left}
+#owl-demo-2 .item{margin-right:15px}
+figure.effect-lily figcaption > div{position:absolute;bottom:0;left:0;padding:2em 27px;width:100%;height:47%;background:linear-gradient(0deg,rgba(0,0,0,0.8211659663865546) 0%,rgba(255,255,255,0) 100%)}
+figure.effect-lily h2,figure.effect-lily p{-webkit-transform:translate3d(0,40px,0);transform:translate3d(0,40px,0)}
+figure.effect-lily h2{-webkit-transition:-webkit-transform .35s;transition:transform .35s}
+figure.effect-lily p{color:rgba(255,255,255,0.8);opacity:0;font-size:15px;line-height:26px;-webkit-transition:opacity 0.2s,-webkit-transform .35s;transition:opacity 0.2s,transform .35s}
+figure.effect-lily:hover img,figure.effect-lily:hover p{opacity:9}
+figure.effect-lily:hover img,figure.effect-lily:hover h2,figure.effect-lily:hover p{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+figure.effect-lily:hover p{-webkit-transition-delay:.05s;transition-delay:.05s;-webkit-transition-duration:.35s;transition-duration:.35s}
+.location-item{background:#FFFF6E;font-size:20px;font-weight:700;position:absolute;top:10px;z-index:1;padding:2px 15px;border-radius:47px;right:25px}
+.location-item svg{position:relative;top:-2px}
+.ovrly-bg{background:#00000059;position:absolute!important;top:0;bottom:0!important;height:100%!important;z-index:-1}
+}
+/*OTHER PROJECTS*/
+
+/*AWARDS AND ACHIVEMENTS */
+#awrd-achivmnts {  background: #fafafa; padding: 75px 0;
+    .lefft-hdd {  }
+    .testiminial-slider { margin-top: 19px; }
+    .donate-green-now { background-color: $theme-color; border: 1px solid $theme-color; color: #fff; text-transform: uppercase; font-size: 14px; letter-spacing: 1px; border-radius: 0;transition: all .4s ease; padding: 11px 41px; }
+    .donate-green-now:hover { background-color: $theme-color; border: 1px solid $theme-color; color: #fff; text-transform: uppercase; font-size: 14px; letter-spacing: 3px;transition: all .4s ease; border-radius: 0; padding: 11px 41px; }
+    .lefft-hdd h1 { font-size: 3.1rem; font-weight: 700; }
+    .lefft-hdd p { line-height: 28px; margin-bottom: 28px; }
+    .pdf-vw {  }
+    .achivement-w { text-align: center; }
+    .achivement-w img { margin-bottom: 18px; }
+    .achivement-w p { margin: 0px auto; }
+    .pdf-vw a { font-weight: 700; font-size: 1.0rem; }
+    .pdf-vw { margin-top: 15px; } 
+    .owl-dots { display: none; }   
+    .owl-nav { display: none; }   
+    #owl-demo-4 .item { margin-right: 20px; }
+}  
+/*AWARDS AND ACHIVEMENTS */
+
+/*FOOTER*/
+#footerr { padding: 40px 0; background: url(../images/subscription-bg.webp) center fixed; background-size: cover; color: #fff;
+    .footr-list {  }
+    .footr-list ul { margin: 0px auto; padding: 0; }
+    .footr-list ul li { list-style: none; line-height: 28px; font-size: 1rem;     padding-right: 26px;}
+    .footr-list h4 { font-size: 1.1rem; font-weight: bold; text-transform: uppercase;margin-bottom: 27px;}
+    .socl2 { margin: 0px auto; padding: 0; }
+    .socl2 li { display: inline-block; }
+    .footr-list p { margin-bottom: 6px; }
+    .copy-rggt { border-top: 1px solid #ffffff; padding: 25px 0 0; margin-top: 25px; }
+    .copy-rggt p { margin: 0px auto; }
+    .cpmy-name { float: right; }
+}
+/*FOOTER*/
+
+
+.icon-crd-fun1:hover img {
+  transition: all 0.65s;
+  transform: rotateY(360deg);
+}

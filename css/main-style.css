@@ -1,0 +1,1053 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Thin.woff2") format("woff2"), url("../fonts/Montserrat-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(255, 243, 243, 0.8549019608);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 243, 243, 0.8549019608);
+}
+
+/* scrollbar */
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.zoom {
+  padding: 0;
+  transition: transform 0.6s;
+  margin: 0 auto;
+}
+
+/*Header sticky*/
+#header_container {
+  transition: top 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+#header_container.hide-nav {
+  top: -200px;
+}
+
+.top-hegt-space {
+  margin-top: 32px;
+}
+
+.man-hder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+/*Header sticky*/
+/*HEADER*/
+#header-top-info {
+  background-color: #0061AC;
+  padding: 4px 0;
+}
+#header-top-info ul {
+  margin: 0px;
+  padding: 0;
+  text-align: right;
+}
+#header-top-info ul li {
+  list-style: none;
+  display: inline-block;
+  color: #fff;
+  padding-right: 19px;
+}
+#header-top-info svg {
+  background: #fff;
+  color: #0061AC;
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#logo-secton {
+  padding: 15px 0;
+  position: relative;
+  box-shadow: -3px 2px 5px 0px rgba(0, 0, 0, 0.0705882353);
+}
+#logo-secton .header-size-sm {
+  margin-left: 84px;
+}
+#logo-secton .donate-button {
+  position: absolute;
+  right: 122px;
+  top: 20px;
+}
+#logo-secton .donate-button a {
+  transition: all 0.4s ease;
+  background: #020202;
+  border: 1px solid #020202;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 10px 21px;
+}
+#logo-secton .donate-button a:hover {
+  transition: all 0.4s ease;
+  background: #81c434;
+  border: 1px solid #020202;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 10px 21px;
+}
+#logo-secton .donate-button a:hover {
+  transition: all 0.4s ease;
+  background: #6dac26;
+  border: 1px solid #6dac26;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 10px 21px;
+}
+
+/*HEADER*/
+/*BANNER*/
+#main-banner {
+  position: relative;
+  /*social media icons on banner*/
+  /* Wobble Skew */
+  /*social media icons on banner*/
+}
+#main-banner h1 {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.431372549);
+  font-size: 3.2rem;
+}
+#main-banner h4 {
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 19px;
+}
+#main-banner .main-banner-txt {
+  position: absolute;
+  left: 114px;
+  text-align: left;
+  z-index: 1;
+  top: 158px;
+  width: 40%;
+}
+#main-banner .donate-ornge-now {
+  background-color: #0061AC;
+  border: 1px solid #0061AC;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 0;
+  padding: 11px 25px;
+  transition: all 0.4s ease;
+}
+#main-banner .donate-ornge-now:hover {
+  background-color: #e05425;
+  border: 1px solid #e05425;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  border-radius: 0;
+  padding: 11px 25px;
+  transition: all 0.4s ease;
+}
+#main-banner .owl-dots {
+  position: absolute;
+  right: 8px;
+  top: 189px;
+  rotate: 90deg;
+}
+#main-banner .owl-theme .owl-dots .owl-dot span {
+  background: #ffffff;
+}
+#main-banner .owl-theme .owl-dots .owl-dot.active span, #main-banner .owl-theme .owl-dots .owl-dot:hover span {
+  background: #0061AC !important;
+}
+#main-banner .donted-price-box {
+  border-radius: 16px;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  top: 104px;
+  top: 160px;
+  right: 124px;
+  z-index: 1;
+  width: 29%;
+  padding: 46px;
+}
+#main-banner .pree-icn {
+  position: relative;
+  top: -1px;
+}
+#main-banner .add-to-cart {
+  background: #0061AC;
+  border: 1px solid #0061AC;
+  width: 100%;
+  border-radius: 0;
+  margin: 10px auto 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#main-banner .input-text {
+  text-align: center;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 9px 15px;
+}
+#main-banner h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0061AC;
+  font-size: 28px;
+}
+#main-banner .info-icons-banner {
+  position: absolute;
+  bottom: 20px;
+  z-index: 1;
+  right: 14px;
+}
+#main-banner .info-icons-banner ul {
+  margin: 0px auto;
+  padding: 0px;
+}
+#main-banner .info-icons-banner ul li {
+  list-style: none;
+}
+#main-banner .info-icons-banner ul li:nth-child(1) {
+  background: #BA7C9E;
+  margin-bottom: 9px;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  padding: 3px 9px 6px;
+  border-radius: 50%;
+}
+#main-banner .info-icons-banner ul li:nth-child(2) {
+  background: #EA6E52;
+  margin-bottom: 9px;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  padding: 3px 9px 6px;
+  border-radius: 50%;
+}
+#main-banner .info-icons-banner ul li:nth-child(3) {
+  background: #2AA81A;
+  margin-bottom: 9px;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  padding: 3px 10px 6px;
+  border-radius: 50%;
+}
+@keyframes hvr-wobble-skew {
+  16.65% {
+    transform: skew(-12deg);
+  }
+  33.3% {
+    transform: skew(10deg);
+  }
+  49.95% {
+    transform: skew(-6deg);
+  }
+  66.6% {
+    transform: skew(4deg);
+  }
+  83.25% {
+    transform: skew(-2deg);
+  }
+  100% {
+    transform: skew(0);
+  }
+}
+#main-banner .hvr-wobble-skew {
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#main-banner .hvr-wobble-skew:hover, #main-banner .hvr-wobble-skew:focus, #main-banner .hvr-wobble-skew:active {
+  animation-name: hvr-wobble-skew;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+/*BANNER*/
+/*OUR HISTORY */
+#history-1 {
+  padding: 61px 0 110px;
+  position: relative;
+}
+#history-1 .hdd-txt-cnt {
+  text-align: center;
+  margin-bottom: 63px;
+}
+#history-1 .hdd-txt-cnt h1 {
+  font-weight: bold;
+  margin: 0px auto;
+  font-size: 3rem;
+  color: #0061AC;
+}
+#history-1 #tab-button {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#history-1 #tab-button li {
+  display: block;
+  position: relative;
+}
+#history-1 #tab-button li a {
+  display: block;
+  padding: 0.5em;
+  background: none;
+  border: none;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+#history-1 #tab-button li:not(:first-child) a {
+  border-left: none;
+}
+#history-1 #tab-button li a:hover, #history-1 #tab-button .is-active a {
+  border-bottom-color: transparent;
+  background: none;
+  color: #0061AC;
+}
+#history-1 .tab-contents {
+  padding: 0;
+}
+#history-1 .tab-button-outer {
+  display: none;
+}
+#history-1 .tab-contents {
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  #history-1 .tab-button-outer {
+    position: relative;
+    z-index: 2;
+    display: block;
+    top: 130px;
+  }
+  #history-1 .tab-select-outer {
+    display: none;
+  }
+  #history-1 .tab-contents {
+    position: relative;
+    top: -1px;
+    margin-top: 0;
+  }
+}
+#history-1 .tab-line {
+  width: 30px;
+  height: 1px;
+  background: #000;
+  position: absolute;
+  right: 17px;
+  top: 21px;
+}
+#history-1 #tab-button .is-active a .tab-line {
+  width: 40px;
+  height: 1px;
+  background: #000;
+  position: absolute;
+  right: 17px;
+  top: 21px;
+}
+#history-1 .active-year {
+  color: #0061AC;
+  font-weight: bold;
+  font-size: 5rem;
+  position: relative;
+  left: -51px;
+}
+#history-1 .history-para h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+#history-1 .history-para p {
+  font-size: 1rem;
+  margin: 0px auto;
+  line-height: 25px;
+}
+#history-1 .history-para {
+  padding: 1px 162px 1px 36px;
+}
+#history-1 .history-hedding {
+  background: #f7eff3;
+  width: 226px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+#history-1 .history-hedding img {
+  position: absolute;
+  top: 64px;
+  left: 55px;
+}
+#history-1 .vert-line_1 {
+  background: #efefef;
+  z-index: -1;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: 57%;
+  top: 0;
+}
+#history-1 .vert-line_2 {
+  background: #efefef;
+  z-index: -1;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  right: 20%;
+  top: 0;
+}
+#history-1 #history-1 #tab-select {
+  width: 100%;
+  padding: 9px 11px;
+  border: 1px solid #f8eff4;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/*OUR HISTORY */
+/*FOUNDER MESSAGE */
+#founder-message {
+  background: #fff;
+  padding: 80px 0;
+}
+#founder-message .founder-text-wrapper h2 {
+  color: #0061AC;
+  font-size: 3.1rem;
+  font-weight: 700;
+  margin: 0px auto 14px;
+}
+#founder-message .founder-text-wrapper p {
+  font-size: 1rem;
+  margin: 0px auto 15px;
+  line-height: 30px;
+  width: 82%;
+  float: left;
+}
+#founder-message .foundrer-image {
+  position: relative;
+}
+#founder-message .foundrer-image img {
+  border: 10px solid #fff;
+}
+#founder-message .quot-icon svg {
+  color: #0061AC;
+  width: 192px;
+  height: 192px;
+}
+#founder-message .quot-icon {
+  position: absolute;
+  left: -90px;
+  top: -30px;
+}
+#founder-message .box-7d {
+  background: #0061AC;
+  color: #fff;
+  padding: 20px;
+  font-size: 21px;
+  position: absolute;
+  bottom: 0;
+}
+#founder-message .fundr-wdtyh {
+  width: 75%;
+  margin: 0px auto;
+}
+
+/*FOUNDER MESSAGE */
+/* Give Every Month */
+#save-countlessliv {
+  position: relative;
+  padding: 75px 0;
+}
+#save-countlessliv .save-countlessliv-box {
+  background: url(../images/subscription-bg.webp) center fixed;
+  background-size: cover;
+  padding: 38px;
+}
+#save-countlessliv .save-countlessliv-para h1 {
+  font-size: 3.1rem;
+  font-weight: 700;
+}
+#save-countlessliv .save-countlessliv-para p {
+  font-size: 1rem;
+}
+#save-countlessliv .rred-more {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+#save-countlessliv h1 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: bold;
+}
+#save-countlessliv h4 {
+  color: #fff;
+}
+#save-countlessliv p {
+  color: #fff;
+}
+#save-countlessliv .lft-texts {
+  padding: 31px 27px;
+}
+#save-countlessliv .counter span {
+  font-weight: bold;
+}
+#save-countlessliv .subscription-gff {
+  width: 29px;
+}
+#save-countlessliv .no-pad_01 {
+  padding: 0;
+}
+#save-countlessliv .subscription-buttn {
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 1px;
+  padding: 10px 17px 10px 10px;
+}
+#save-countlessliv .cuntr-ststcs {
+  padding: 35px 17px 0;
+  height: 140px;
+  margin: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+#save-countlessliv .counter {
+  font-size: 3rem;
+}
+#save-countlessliv .cuntr-ststcs h3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#save-countlessliv .statics-wrapper {
+  margin-top: 10px;
+  width: 94%;
+}
+#save-countlessliv .save-countlessliv-headding {
+  font-size: 10rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4901960784);
+  position: absolute;
+  bottom: -38px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: -1;
+}
+
+/* Give Every Month */
+/* Crowdfunding Categories */
+#crowdfunding-categories {
+  padding: 0 0 60px;
+}
+#crowdfunding-categories h1 {
+  font-weight: bold;
+  margin: 0px auto;
+  font-size: 3rem;
+  color: #0061AC;
+  text-align: center;
+}
+#crowdfunding-categories h6 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  margin: 9px auto 0;
+  width: 69%;
+  text-align: center;
+}
+#crowdfunding-categories .crowdfnd-wdh {
+  margin-top: 36px;
+}
+#crowdfunding-categories .crowdfnd-wdh ul {
+  margin: 0px auto;
+  padding: 0;
+}
+#crowdfunding-categories .crowdfnd-wdh ul li {
+  list-style: none;
+  display: inline-block;
+  background: #f0f0f0;
+  border-radius: 22px;
+  padding: 28px 27px;
+  width: 22%;
+  margin: 9px; /*box-shadow: 0px 0px 6px 2px #00000012;*/
+  transition: all 0.4s ease;
+}
+#crowdfunding-categories .crowdfnd-wdh ul li:hover {
+  list-style: none;
+  display: inline-block;
+  background: #fff;
+  border-radius: 22px;
+  padding: 28px 27px;
+  width: 22%;
+  margin: 9px;
+  box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.0705882353);
+  transition: all 0.4s ease;
+}
+#crowdfunding-categories .crdfunding-items {
+  text-align: center;
+}
+#crowdfunding-categories .icon-crd-fun1 {
+  height: 61px;
+  width: 61px;
+  margin: auto;
+}
+#crowdfunding-categories .icon-crd-txts h4 {
+  margin: 6px auto 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* Crowdfunding Categories */
+/* Our Top Fundraisers */
+#our-top-fundraisers {
+  padding: 71px 0;
+  background: url(../images/subscription-bg.webp) center fixed;
+  background-size: cover;
+}
+#our-top-fundraisers h1 {
+  font-weight: bold;
+  margin: 0px auto;
+  font-size: 3rem;
+  color: #0061AC;
+  text-align: center;
+  color: #fff;
+}
+#our-top-fundraisers h6 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  margin: 9px auto 0;
+  width: 69%;
+  text-align: center;
+  color: #fff;
+}
+#our-top-fundraisers .top-franchis {
+  background: #fff;
+}
+#our-top-fundraisers h4 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 28px;
+}
+#our-top-fundraisers .top-franchis-mmg {
+  position: relative;
+  overflow: hidden;
+}
+#our-top-fundraisers .top-franchis-txts {
+  padding: 15px 26px 24px;
+}
+#our-top-fundraisers .per-b {
+  float: right !important;
+}
+#our-top-fundraisers .donte-bttn {
+  transition: all 0.4s ease;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 0;
+  padding: 8px;
+  margin-top: 22px;
+}
+#our-top-fundraisers .donte-bttn:hover {
+  transition: all 0.4s ease;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 3px;
+  border-radius: 0;
+  padding: 8px;
+  margin-top: 22px;
+}
+#our-top-fundraisers .top-fund {
+  margin-top: 30px;
+}
+#our-top-fundraisers #owl-demo-5 .item {
+  margin: 10px 15px;
+}
+#our-top-fundraisers .icon-med {
+  background: #fff;
+  padding: 4px 10px 4px;
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 0px auto;
+  color: #0061AC;
+}
+
+/* Our Top Fundraisers */
+/*OTHER PROJECTS*/
+#other-project {
+  padding: 51px 0 63px;
+  background: #f4f4f4;
+  /* Individual effects */
+  /*---------------*/
+  /***** Lily *****/
+  /*---------------*/
+}
+#other-project .hdd-project {
+  font-size: 3.1rem;
+  font-weight: 700;
+  color: #0061AC;
+}
+#other-project .vw-all {
+  font-weight: 700;
+  text-align: right;
+  float: right;
+  margin: 20px auto;
+}
+#other-project .project-slidr {
+  margin-top: 20px;
+}
+#other-project .grid figure {
+  border-radius: 24px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+#other-project .grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+#other-project .grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  font-size: 1.25em;
+  backface-visibility: hidden;
+}
+#other-project .grid figure figcaption::before, #other-project .grid figure figcaption::after {
+  pointer-events: none;
+}
+#other-project .grid figure figcaption, #other-project .grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#other-project .grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+#other-project .grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: bold;
+  font-size: 28px;
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+}
+#other-project #other-project .grid figure h2 span {
+  font-weight: 600;
+  font-size: 30px;
+}
+#other-project .grid figure h2,
+#other-project .grid figure p {
+  margin: 0;
+}
+#other-project .grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+#other-project figure.effect-lily img {
+  max-width: none;
+  width: calc(100% + 50px);
+  opacity: 9;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(-40px, 0, 0);
+}
+#other-project figure.effect-lily figcaption {
+  text-align: left;
+}
+#other-project #owl-demo-2 .item {
+  margin-right: 15px;
+}
+#other-project figure.effect-lily figcaption > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2em 27px;
+  width: 100%;
+  height: 47%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8211659664) 0%, rgba(255, 255, 255, 0) 100%);
+}
+#other-project figure.effect-lily h2,
+#other-project figure.effect-lily p {
+  transform: translate3d(0, 40px, 0);
+}
+#other-project figure.effect-lily h2 {
+  transition: transform 0.35s;
+}
+#other-project figure.effect-lily p {
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  font-size: 15px;
+  line-height: 26px;
+  transition: opacity 0.2s, transform 0.35s;
+}
+#other-project figure.effect-lily:hover img,
+#other-project figure.effect-lily:hover p {
+  opacity: 9;
+}
+#other-project figure.effect-lily:hover img,
+#other-project figure.effect-lily:hover h2,
+#other-project figure.effect-lily:hover p {
+  transform: translate3d(0, 0, 0);
+}
+#other-project figure.effect-lily:hover p {
+  transition-delay: 0.05s;
+  transition-duration: 0.35s;
+}
+#other-project .location-item {
+  background: #FFFF6E;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  z-index: 1;
+  padding: 2px 15px;
+  border-radius: 47px;
+  right: 25px;
+}
+#other-project .location-item svg {
+  position: relative;
+  top: -2px;
+}
+#other-project .ovrly-bg {
+  background: rgba(0, 0, 0, 0.3490196078);
+  position: absolute !important;
+  top: 0;
+  bottom: 0 !important;
+  height: 100% !important;
+  z-index: -1;
+}
+
+/*OTHER PROJECTS*/
+/*AWARDS AND ACHIVEMENTS */
+#awrd-achivmnts {
+  background: #fafafa;
+  padding: 75px 0;
+}
+#awrd-achivmnts .testiminial-slider {
+  margin-top: 19px;
+}
+#awrd-achivmnts .donate-green-now {
+  background-color: #0061AC;
+  border: 1px solid #0061AC;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 0;
+  transition: all 0.4s ease;
+  padding: 11px 41px;
+}
+#awrd-achivmnts .donate-green-now:hover {
+  background-color: #0061AC;
+  border: 1px solid #0061AC;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  transition: all 0.4s ease;
+  border-radius: 0;
+  padding: 11px 41px;
+}
+#awrd-achivmnts .lefft-hdd h1 {
+  font-size: 3.1rem;
+  font-weight: 700;
+}
+#awrd-achivmnts .lefft-hdd p {
+  line-height: 28px;
+  margin-bottom: 28px;
+}
+#awrd-achivmnts .achivement-w {
+  text-align: center;
+}
+#awrd-achivmnts .achivement-w img {
+  margin-bottom: 18px;
+}
+#awrd-achivmnts .achivement-w p {
+  margin: 0px auto;
+}
+#awrd-achivmnts .pdf-vw a {
+  font-weight: 700;
+  font-size: 1rem;
+}
+#awrd-achivmnts .pdf-vw {
+  margin-top: 15px;
+}
+#awrd-achivmnts .owl-dots {
+  display: none;
+}
+#awrd-achivmnts .owl-nav {
+  display: none;
+}
+#awrd-achivmnts #owl-demo-4 .item {
+  margin-right: 20px;
+}
+
+/*AWARDS AND ACHIVEMENTS */
+/*FOOTER*/
+#footerr {
+  padding: 40px 0;
+  background: url(../images/subscription-bg.webp) center fixed;
+  background-size: cover;
+  color: #fff;
+}
+#footerr .footr-list ul {
+  margin: 0px auto;
+  padding: 0;
+}
+#footerr .footr-list ul li {
+  list-style: none;
+  line-height: 28px;
+  font-size: 1rem;
+  padding-right: 26px;
+}
+#footerr .footr-list h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+#footerr .socl2 {
+  margin: 0px auto;
+  padding: 0;
+}
+#footerr .socl2 li {
+  display: inline-block;
+}
+#footerr .footr-list p {
+  margin-bottom: 6px;
+}
+#footerr .copy-rggt {
+  border-top: 1px solid #ffffff;
+  padding: 25px 0 0;
+  margin-top: 25px;
+}
+#footerr .copy-rggt p {
+  margin: 0px auto;
+}
+#footerr .cpmy-name {
+  float: right;
+}
+
+/*FOOTER*/
+.icon-crd-fun1:hover img {
+  transition: all 0.65s;
+  transform: rotateY(360deg);
+}/*# sourceMappingURL=main-style.css.map */
